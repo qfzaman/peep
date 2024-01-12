@@ -1,12 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import {
-  SignIn,
-  SignInButton,
-  SignOutButton,
-  UserButton,
-  useUser,
-} from "@clerk/nextjs";
+import { SignIn, SignInButton, SignOutButton, useUser } from "@clerk/nextjs";
 
 import { api } from "~/utils/api";
 
