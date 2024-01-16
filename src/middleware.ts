@@ -5,7 +5,7 @@ export default authMiddleware({
 
 publicRoutes: ["/"],
 
-  afterAuth(auth, req) {
+  afterAuth(auth) {
     // // Handle users who aren't authenticated
     // if (!auth.userId && !auth.isPublicRoute) {
     //   return NextResponse.redirect(new URL("/", req.url));
